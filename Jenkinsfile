@@ -10,7 +10,7 @@ pipeline {
         stage('Build Docker image') {
             steps {
                 script {
-                    docker.build('nginx-image:latest', '-f Dockerfile .')
+                    docker.build('nginx-image:latest', '-f Dockerfile1 .')
                 }
             }
         }
