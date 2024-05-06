@@ -19,7 +19,7 @@ pipeline {
         stage('Run Docker container') {
             steps {
                 script {
-                    docker.image('my-nginx-image').run('-d -p 81:80')
+                    docker.image('my-nginx-image').run('-d -p 80:80')
                 }
             }
         }
