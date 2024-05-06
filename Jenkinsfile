@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone repository') {
             steps {
-                git 'https://github.com/yourusername/yourrepository.git'
+                git 'https://github.com/SaurabhAbhishek/nginx.html.git'
             }
         }
         stage('Build Docker image') {
